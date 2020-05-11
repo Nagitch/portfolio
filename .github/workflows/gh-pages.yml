@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-18.04
     defaults:
         run:
-          working-directory: app
+          working-directory: ./app
     steps:
       - uses: actions/checkout@v2
 
@@ -35,5 +35,5 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.ACCESS_TOKEN }}
           publish_dir: ./public
