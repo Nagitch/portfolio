@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{RXBc:function(n,e,o){"use strict";o.r(e);var t=o("q1tI"),c=o.n(t);e.default=function(){return c.a.createElement("div",null,"Welcome to my portfolio.")}}}]);
+//# sourceMappingURL=component---src-pages-index-js-55624887ad63e3e64eab.js.map
