@@ -28,9 +28,13 @@ jobs:
             ${{ runner.os }}-node-
 
       - run: npm ci
+        working-directory: ./app
       - run: npm run format
+        working-directory: ./app
       - run: npm run test
+        working-directory: ./app
       - run: npm run build
+        working-directory: ./app
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
